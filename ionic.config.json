@@ -1,0 +1,8 @@
+{
+  "name": "foosball",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "5ec1c676"
+}
