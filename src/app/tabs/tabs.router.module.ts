@@ -35,6 +35,15 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'grid',
+        children: [
+          {
+            path: '',
+            loadChildren: '../grid/grid.module#GridPageModule'
+          }
+        ]
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'
